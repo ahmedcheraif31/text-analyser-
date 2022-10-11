@@ -1,0 +1,9 @@
+Set()
+Creates a new Set object. 
+
+. size 
+The size accessor property returns the number of elements in a Set object.
+
+exemple 
+var a = new Array("Vent","Pluie","Feu");
+a.join("");    // "VentPluieFeu"
