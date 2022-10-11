@@ -7,3 +7,14 @@ The size accessor property returns the number of elements in a Set object.
 exemple 
 var a = new Array("Vent","Pluie","Feu");
 a.join("");    // "VentPluieFeu"
+
+La méthode find() renvoie la valeur du premier élément trouvé dans le tableau qui respecte la condition 
+donnée par la fonction de test passée en argument. 
+Sinon, la valeur undefined est renvoyée.
+
+La méthode sort() trie les éléments d'un tableau, dans ce même tableau, et renvoie le tableau.
+ Par défaut, le tri s'effectue sur les éléments du tableau convertis en chaînes de caractères et triées selon 
+les valeurs des unités de code UTF-16 des caractères.
+
+The removeClass() method removes one or more class names from the selected elements.
+$(selector).removeClass(classname,function(index,currentclass))
