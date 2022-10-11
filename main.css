@@ -31,7 +31,7 @@ button:hover {
   box-shadow: 10px -10px 25px 0px rgba(143,   64, 248, .25), -10px 10px 25px 0px rgba(39, 200,   255, .25);
 }
 
-{
+{  
   box-sizing: border-box
 }
 
@@ -39,13 +39,12 @@ body {
   font-family: 'Roboto', sans-serif;
 }
 
-.container {
+.container { text-align: center;
   
     background-image: url("background.jpg");
   
     height: 100%; 
   
-    /* Center and scale the image nicely */
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -62,10 +61,12 @@ label {
   display: block;
 }
 
-.hidden {
+.hidden {text-align: center;
   display: none;
 }
 
 .text-report dt:after {
+  
+  text-align: center;
   content: ": ";
 }
